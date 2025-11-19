@@ -15,7 +15,7 @@ enum MyEnum {
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace blibks {
+namespace bliks {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
@@ -23,6 +23,9 @@ namespace blibks {
      * @param e describe parameter here
      */
     //% block
-    export function plick(joo:Image, x:number, y:number): void {
-        //add here
+    export function plick(x: number, y:number, ms:number): void{
+        basic.forever(function() {
+            led.toggle(x, y)
+            basic.pause(ms)
+        })
 }}
