@@ -14,7 +14,7 @@ enum MyEnum {
 /**
  * Custom blocks
  */
-//% weight=100 color=##6c008a icon="\uf600"
+//% weight=100 color=##6c008a icon="[]"
 namespace bliks {
     /**
      * TODO: describe your function here
